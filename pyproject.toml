@@ -1,0 +1,16 @@
+[project]
+name = "llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==1.26.4",
+    "torch==2.4.0",
+    "transformers==4.44.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.13.2",
+]
